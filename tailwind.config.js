@@ -12,10 +12,10 @@ export default {
     },
     extend: {
       colors: {
-        'backgroundColor': '#21232f',
+        'sideColor': '#21232f',
         'mainColor': '#6c5dd2',
         'fontColor': '#fbfbfd',
-        'sideColor': '#242632'
+        'backgroundColor': '#242632'
       },
     },
   },
