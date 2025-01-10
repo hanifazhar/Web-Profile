@@ -19,19 +19,19 @@ const Navbar = () => {
         </div>
         <div className="hidden md:block text-fontColor text-sm">
           <ul className="flex flex-row gap-4">
-            <li><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Home</a></li>
-            <li><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">About</a></li>
-            <li><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Portofolio</a></li>
-            <li><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Contact</a></li>
+            <li><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">Home</a></li>
+            <li><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">About</a></li>
+            <li><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">Portofolio</a></li>
+            <li><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">Contact</a></li>
           </ul>
         </div>
       </nav>
       <div className={`${toogleNavbar ? "block" : "hidden"} w-full z-9999`}>
         <ul className="px-8 bg-backgroundColor text-fontColor py-2 border-t-2 border-b-2 border-mainColor">
-          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Home</a></li>
-          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">About</a></li>
-          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Portofolio</a></li>
-          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Contact</a></li>
+          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">Home</a></li>
+          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">About</a></li>
+          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">Portofolio</a></li>
+          <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 hover:border-mainColor transition-all duration-500 border-b-2 border-backgroundColor" href="#">Contact</a></li>
         </ul>
       </div>
     </div>
