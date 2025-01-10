@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toogleNavbar, setToogleNavbar] = useState(false);
 
   return (
-    <div className="bg-backgroundColor">
+    <div className="bg-backgroundColor fixed top-0 right-0 left-0 z-9999 shadow-lg">
       <nav className="flex items-center justify-between px-8 py-4 bg-backgroundColor md:bg-backgroundColor md:px-12 md:py-6 lg:bg-backgroundColor lg:w-[80%] mx-auto lg:px-0">
         <div>
           <h1 className="font-bold text-xl text-fontColor">Azhar<span className="font-bold text-mainColor">Hanif</span></h1>
@@ -26,7 +26,7 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <div className={toogleNavbar ? "block" : "hidden" }>
+      <div className={`${toogleNavbar ? "block" : "hidden"} w-full z-9999`}>
         <ul className="px-8 bg-backgroundColor text-fontColor py-2 border-t-2 border-b-2 border-mainColor">
           <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">Home</a></li>
           <li className="py-2"><a className="hover:text-mainColor hover:border-b-2 border-mainColor" href="#">About</a></li>
